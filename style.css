@@ -17,27 +17,39 @@ body{
 
 /* TEXT*/
 
-		h1{
-			font-size:25px;
-			font-family: "IBM Plex Sans Devanagari", sans-serif;
-			  font-weight: 400;
-			  font-style: normal;
-			  color:black;
-			}
+h1{
+	margin: 0;
+	}
 
-			h1:hover{
+h2{
+	font-size:25px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color:black;
+}
+
+				h2:hover{
 			 	color: #7D2EFF;
 			 	text-decoration: underline;
-	  						transition:0.5s;
+	  			transition:0.5s;
 
-			}
+					}
 
-		h2{
-			font-size: 17px;
-			font-family: "IBM Plex Sans Devanagari", sans-serif;
-			  font-weight: 400;
-			  font-style: normal;}
+h3{
+	font-size:25px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color:black;}
 
+
+.paragraph{
+	font-size: 17px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 /*HEADER*/
 
@@ -230,3 +242,25 @@ margin-right:7%;
 
 	  						transition:0.5s;
 						}
+
+
+
+@media screen and (max-width: 1080px) {
+
+	.content{
+		margin-left: 250px;
+		margin-right:7%;
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+.search-container input{
+	width:350px;}
+
+				.newsselection{ 
+					width: 24%;
+					}
+	
+}
