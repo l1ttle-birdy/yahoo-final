@@ -216,18 +216,16 @@ h1{
 
 
 					.button3{
-						display: inline-block;
-						height:10px;
-						width:100%;
-					border:none;
-					margin-left:0;
-					margin-top:5px;
-					color:white;
+					display: block;   
+  					width: 100%;
+ 					 padding: 12px;          
+ 					 margin-top: 5px;			
 
-					text-align: center;
-					padding:5px;
-					background-color: #552A9A;
-					border-radius:30px;
+ 					 background-color: #552A9A;
+  					color: white;
+  					text-align: center;
+ 					text-decoration: none; 
+ 					 border-radius: 30px;
 
 					}
 
